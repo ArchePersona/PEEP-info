@@ -1,0 +1,21 @@
+# PEEP Public Information License
+
+**Version 1.0 — August 2026**
+
+Copyright © 2026 ARCHETRON. All rights reserved.
+
+This repository contains documentation and informational material relating to PEEP and ARCHETRON (the **Materials**).
+
+The Materials are made publicly viewable for informational, evaluation, and reference purposes only.
+
+No license or right is granted to copy, modify, distribute, sublicense, sell, commercialize, reverse engineer, create derivative works from, or otherwise exploit the Materials except with prior written permission from ARCHETRON or as otherwise required by applicable law.
+
+Publication of these Materials does not grant any license to PEEP software, ARCHETRON software, source code, object code, APIs, models, algorithms, architecture, observation mechanisms, protocols, trademarks, service marks, trade dress, patents, patent applications, trade secrets, know-how, or other intellectual property.
+
+PEEP, ARCHETRON, and associated product names, marks, logos, and branding are the property of their respective owner and may not be used to imply endorsement, affiliation, or authorization without permission.
+
+THE MATERIALS ARE PROVIDED "AS IS" FOR INFORMATIONAL PURPOSES, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, OR AVAILABILITY.
+
+To the maximum extent permitted by law, ARCHETRON will not be liable for any claim, damages, or other liability arising from use of or reliance upon the Materials.
+
+For licensing or other permissions, contact ARCHETRON through an official contact channel.
