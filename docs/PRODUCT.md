@@ -35,7 +35,7 @@ Initial development has focused on PowerShell as the first execution environment
 
 ## Relationship to ARCHETRON
 
-PEEP is part of ARCHETRON's broader infrastructure for intelligent systems. Its responsibility is execution observation.
+PEEP is part of ARCHETRON, the technology ecosystem built by VOLSHi for intelligent systems. Its responsibility within the ecosystem is execution observation.
 
 Other ARCHETRON technologies can consume operational information for their own authorized purposes, but PEEP itself remains an observer rather than becoming a reasoning or authority layer.
 
