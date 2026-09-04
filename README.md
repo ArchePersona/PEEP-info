@@ -2,7 +2,7 @@
 
 **Execution observation for intelligent systems.**
 
-PEEP is an ARCHETRON technology designed to make software execution visible as it happens.
+PEEP is a technology within the ARCHETRON ecosystem, built by VOLSHi, designed to make software execution visible as it happens.
 
 Modern software work spans terminals, development environments, runtimes, browsers, build systems, CI services, and other execution surfaces. PEEP provides a dedicated observation capability so activity occurring across those environments can be represented consistently for authorized downstream systems.
 
@@ -58,14 +58,14 @@ Public documentation describes PEEP's purpose, capabilities, and externally rele
 
 ## ARCHETRON
 
-PEEP is an ARCHETRON technology. Within the broader ARCHETRON direction, PEEP's responsibility is deliberately narrow: **observe execution.**
+PEEP is a technology within ARCHETRON, the VOLSHi technology ecosystem. Within that ecosystem, PEEP's responsibility is deliberately narrow: **observe execution.**
 
 ## Repository Scope
 
 `PEEP-info` is a public documentation repository for product information, evaluation, business reference, and other material that can be shared without exposing the private PEEP implementation.
 
-Publication of this repository does not grant access to PEEP source code, private systems, non-public interfaces, or ARCHETRON intellectual property.
+Publication of this repository does not grant access to PEEP source code, private systems, non-public interfaces, or proprietary VOLSHi technology.
 
 ---
 
-Copyright © 2026 ARCHETRON. All rights reserved.
+Copyright © 2026 VOLSHi. All rights reserved.
