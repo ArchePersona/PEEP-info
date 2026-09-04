@@ -4,7 +4,7 @@
 
 Do not disclose suspected vulnerabilities publicly through repository issues, discussions, social media, or other public channels.
 
-If you believe you have identified a security issue affecting PEEP or an ARCHETRON-controlled PEEP surface, contact ARCHETRON privately through an official contact channel.
+If you believe you have identified a security issue affecting PEEP or a VOLSHi-controlled PEEP surface, contact VOLSHi privately through an official contact channel.
 
 Where practical, include the affected surface, observed behavior, reproduction steps, potential impact, and relevant logs or screenshots with credentials and sensitive information removed.
 
@@ -22,4 +22,4 @@ Please allow reasonable time for investigation and remediation before public dis
 
 ---
 
-Copyright © 2026 ARCHETRON. All rights reserved.
+Copyright © 2026 VOLSHi. All rights reserved.
