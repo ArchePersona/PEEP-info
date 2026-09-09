@@ -2,52 +2,44 @@
 
 **Execution observation for intelligent systems.**
 
-PEEP is a technology within the ARCHETRON ecosystem, built by VOLSHi, designed to make software execution visible as it happens.
+PEEP is the sensing layer within ARCHETRON, the technology ecosystem built by VOLSHi.
 
-Modern software work spans terminals, development environments, runtimes, browsers, build systems, CI services, and other execution surfaces. PEEP provides a dedicated observation capability so activity occurring across those environments can be represented consistently for authorized downstream systems.
+Software execution is scattered across terminals, IDEs, runtimes, browsers, build systems, CI services, and other surfaces. PEEP observes that activity at the source and turns it into a consistent event stream for authorized downstream systems.
 
-> This repository is the public information surface for PEEP. It does not contain PEEP source code, proprietary architecture, internal mechanisms, or private implementation details.
+Its job is deliberately narrow:
 
-## The Problem
+> **PEEP sees.**
 
-Execution activity is often fragmented across the tools that produce it. A command can fail in one environment, a verification can succeed in another, and a file can change somewhere else entirely.
+> This repository is the public information surface for PEEP. It does not contain the private implementation.
 
-For larger intelligent systems, that fragmentation makes it difficult to maintain a reliable operational picture of what actually happened.
+## What PEEP does
 
-PEEP addresses the observation problem at the source.
-
-## What PEEP Does
-
-PEEP is designed to observe execution activity and make those observations available in a consistent operational form.
-
-Depending on the connected execution surface, observable activity can include:
+Depending on the connected execution surface, PEEP can observe activity such as:
 
 - execution starting and completing;
-- command activity;
-- output, warnings, and errors;
+- commands and output;
+- warnings and errors;
 - file and dependency changes;
 - verification activity and outcomes; and
 - interrupted or incomplete execution.
 
-## A Strict Boundary
+## A strict boundary
 
 PEEP observes.
 
-It does not decide what an observation means. It does not approve work, direct execution, or silently turn observation into authority.
+It does not decide what an observation means. It does not approve work, direct execution, or turn observation into authority.
 
-That boundary is central to the product: the system observing operational reality should remain distinct from systems responsible for interpretation, decision-making, or control.
+The system observing operational reality should remain distinct from systems responsible for interpretation, decision-making, governance, or control.
 
-## Why It Matters
+## Why it matters
 
-Autonomous and AI-assisted systems become difficult to inspect when important execution activity remains trapped inside individual tools.
+Autonomous and AI-assisted systems become difficult to inspect when execution evidence remains trapped inside individual tools.
 
-PEEP is intended to provide a common observational surface without requiring every consuming system to independently understand every execution environment.
+PEEP provides a common observation boundary so downstream systems do not each need their own bespoke understanding of every execution environment.
 
-## Development Status
+## Development status
 
-PEEP is under active development. Initial implementation work has focused on PowerShell execution, with the broader product direction intended to support additional execution environments over time.
-
-Public documentation describes PEEP's purpose, capabilities, and externally relevant boundaries only. Internal implementation details are intentionally withheld.
+PEEP is under active development. Initial implementation work has focused on PowerShell execution, with the broader architecture designed to extend across additional execution environments.
 
 ## Documentation
 
@@ -56,15 +48,21 @@ Public documentation describes PEEP's purpose, capabilities, and externally rele
 - [Support](SUPPORT.md)
 - [License](LICENSE.md)
 
-## ARCHETRON
+## Explore ARCHETRON
 
-PEEP is a technology within ARCHETRON, the VOLSHi technology ecosystem. Within that ecosystem, PEEP's responsibility is deliberately narrow: **observe execution.**
+- [ARCHETRON](https://github.com/CenturionOversight/ARCHETRON) — the VOLSHi technology ecosystem
+- [RATTER](https://github.com/ArchePersona/RATTER-info) — operational telemetry built from observable activity
+- [ERIE](https://github.com/ArchePersona/ERIE-info) — evidence, knowledge, and investigation
+- [ARCHE](https://github.com/ArchePersona/ARCHE-info) — attention allocation
+- [ELLE](https://github.com/CenturionOversight/ELLE) — external learning and developmental continuity
+- [SHERLOCK](https://github.com/ArchePersona/SHERLOCK-info) — evidence-driven reconstruction and investigation
+- [DEVSnitcher](https://github.com/CenturionOversight/devsnitcher) — browser-edge evidence capture
+- [ARCHEMADA](https://github.com/ArchePersona/ARCHEMADA-info) — controlled AI-assisted software construction
+- [ARCHESTRATOR](https://github.com/CenturionOversight/ARCHESTRATOR-info) — software engineering lifecycle infrastructure
 
-## Repository Scope
+## Repository scope
 
-`PEEP-info` is a public documentation repository for product information, evaluation, business reference, and other material that can be shared without exposing the private PEEP implementation.
-
-Publication of this repository does not grant access to PEEP source code, private systems, non-public interfaces, or proprietary VOLSHi technology.
+`PEEP-info` is a public documentation repository. Publication does not grant access to PEEP source code, private systems, non-public interfaces, or proprietary VOLSHi technology.
 
 ---
 
