@@ -1,6 +1,6 @@
 # PEEP
 
-**Execution observation for intelligent systems.**
+**Independent execution observation for autonomous intelligence.**
 
 PEEP is the execution-sensing layer within the VOLSHi span between machine intelligence and human experience. It gives the surrounding system an independent view of what execution actually did instead of requiring a model or agent to describe its own behavior.
 
@@ -39,7 +39,7 @@ PEEP provides a common observation boundary so downstream systems do not each ne
 
 ## Development status
 
-PEEP is under active development. Initial implementation work has focused on PowerShell execution, with the broader architecture designed to extend across additional execution environments.
+PEEP is an active execution-observation engine under continued development. The implemented observation boundary began with PowerShell execution and is designed to extend across terminals, IDEs, browsers, CI, and other execution surfaces without requiring downstream systems to understand each environment independently.
 
 ## Documentation
 
