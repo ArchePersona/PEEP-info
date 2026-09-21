@@ -2,7 +2,7 @@
 
 **Execution observation for intelligent systems.**
 
-PEEP is the sensing layer within ARCHETRON, the technology ecosystem built by VOLSHi.
+PEEP is the execution-sensing layer within the VOLSHi span between machine intelligence and human experience. It gives the surrounding system an independent view of what execution actually did instead of requiring a model or agent to describe its own behavior.
 
 Software execution is scattered across terminals, IDEs, runtimes, browsers, build systems, CI services, and other surfaces. PEEP observes that activity at the source and turns it into a consistent event stream for authorized downstream systems.
 
